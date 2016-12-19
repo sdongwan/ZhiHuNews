@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawlayout_lv_headview"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@color/colorPrimary">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/drawlayout_head_civ"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@mipmap/icon_head" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/drawlayout_head_civ"
+        android:text="知乎日报"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/drawlayout_collect_iv"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="15dp"
+        android:scaleType="fitCenter"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:src="@mipmap/icon_star_white" />
+
+    <TextView
+        android:id="@+id/drawlayout_my_collet_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/drawlayout_collect_iv"
+        android:text="我的收藏"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/drawlayout_download_iv"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/drawlayout_my_collet_tv"
+        android:scaleType="fitCenter"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:src="@mipmap/icon_drawer_download" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/drawlayout_download_iv"
+        android:text="我的下载"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+</RelativeLayout>

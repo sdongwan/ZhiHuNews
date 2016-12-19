@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/item_tv_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_weight="1"
+        android:text="16条长评论"
+        android:textColor="#525252"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/item_tv_arrow"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end|left"
+        android:layout_marginRight="10dp"
+        android:background="@mipmap/icon_arrow"
+        android:scaleType="center"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:visibility="gone" />
+
+</LinearLayout>
