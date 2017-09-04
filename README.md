@@ -7,7 +7,7 @@
 <br/>
 <br/>
 效果图：<br/>
-![主界面图](https://github.com/sdongwan/ZhiHuNews/blob/master/images/image009.png)
+![主界面](https://github.com/sdongwan/ZhiHuNews/blob/master/images/image009.png)
 
 ![新闻评论图](https://github.com/sdongwan/ZhiHuNews/blob/master/images/image011.png)
 
